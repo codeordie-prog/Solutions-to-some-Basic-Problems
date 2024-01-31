@@ -57,6 +57,8 @@ public class TripletSumProblem {
 				
 				int currentsum = array[i] + array[left] + array[right];
 				
+				System.out.println("sum trials : " + array[i] + array[left] + array[right]);
+				
 				if(currentsum == targetSum) {
 					
 					int [] sums = {array[i],array[left],array[right]}; //add the triplets to an array
